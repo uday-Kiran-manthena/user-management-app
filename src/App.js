@@ -18,7 +18,7 @@ const App = () => {
       >
         <button
           onClick={toggleTheme}
-          className={`fixed top-4 right-4 w-14 h-14 flex items-center justify-center rounded-full shadow-xl transition-transform duration-300 ease-in-out transform ${
+          className={`absolute   top-4 right-4 w-14 h-14 flex items-center justify-center rounded-full shadow-xl transition-transform duration-300 ease-in-out transform ${
             isDarkMode
               ? "bg-yellow-500 hover:bg-yellow-400 text-gray-900"
               : "bg-blue-500 hover:bg-blue-400 text-white"
